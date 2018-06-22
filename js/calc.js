@@ -24,7 +24,7 @@ function answer(operator, num1, num2) {
     $('#result').html(num1 * num2);
   }
   else if (operator == '/'){
-    $('#result').html(num1 * num2);
+    $('#result').html(num1 / num2);
   }
 }
 
